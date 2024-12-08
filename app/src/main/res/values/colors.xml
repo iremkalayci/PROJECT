@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="lila">#8657c5</color>
+    <color name="yes">#77dd77</color>
+    <color name="morgibi">#44238c</color>
+    <color name="grikoyu">#585858</color>
+
+</resources>

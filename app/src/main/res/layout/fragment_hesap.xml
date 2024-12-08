@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Kullanıcı Bilgilerini Görüntüleme -->
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ad: "
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp"
+            android:minHeight="48dp"/>
+
+        <TextView
+            android:id="@+id/tvEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="E-posta: "
+            android:textSize="18sp"
+            android:layout_marginBottom="16dp"
+            android:minHeight="48dp"/>
+
+        <!-- Kullanıcı Bilgilerini Güncelleme -->
+        <EditText
+            android:id="@+id/etNewName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Yeni Ad"
+            android:layout_marginBottom="8dp"
+            android:minHeight="48dp"/>
+
+        <EditText
+            android:id="@+id/etNewEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Yeni E-posta"
+            android:layout_marginBottom="16dp"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp"/>
+
+        <Button
+            android:id="@+id/btnUpdateInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bilgileri Güncelle"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Şifre Sıfırlama -->
+        <EditText
+            android:id="@+id/etOldPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Eski Şifre"
+            android:layout_marginBottom="8dp"
+            android:inputType="textPassword"
+            android:minHeight="48dp"/>
+
+        <EditText
+            android:id="@+id/etNewPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Yeni Şifre"
+            android:layout_marginBottom="16dp"
+            android:inputType="textPassword"
+            android:minHeight="48dp"/>
+
+        <Button
+            android:id="@+id/btnResetPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Şifre Sıfırla"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Üyeliği Pasif Et -->
+        <Button
+            android:id="@+id/btnDeactivate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Üyeliği Pasif Et"
+            />
+    </LinearLayout>
+</ScrollView>

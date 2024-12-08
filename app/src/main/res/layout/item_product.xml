@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:elevation="4dp"
+    app:cardCornerRadius="8dp"
+    tools:context="AddAdapter">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <!-- Ürün Görseli -->
+        <ImageView
+            android:id="@+id/productImage"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginEnd="16dp"
+            android:scaleType="centerCrop"
+            />
+
+        <!-- Ürün Bilgileri -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center_vertical">
+
+            <!-- Ürün Adı -->
+            <TextView
+                android:id="@+id/productName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ürün Adı"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:maxLines="1"
+                android:ellipsize="end" />
+
+            <!-- Ürün Fiyatı -->
+            <TextView
+                android:id="@+id/productPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="₺100.00"
+                android:textSize="14sp"
+                android:textColor="#FF5722"
+                android:layout_marginTop="8dp" />
+
+            <!-- Ürün Stok Bilgisi -->
+            <TextView
+                android:id="@+id/productStock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Stok: 50"
+                android:textSize="12sp"
+                android:layout_marginTop="4dp"
+                android:textColor="@color/black" />
+            <TextView
+                android:id="@id/productSaleStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Satışta"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tvCurrentName" type="id" />
+    <item name="tvCurrentSurname" type="id" />
+    <item name="btnUpdate" type="id" />
+    <item name="etNewName" type="id" />
+    <item name="etNewSurname" type="id" />
+    <item name="productNameTextView" type="id" />
+    <item name="productImageView" type="id" />
+    <item name="productPriceTextView" type="id" />
+    <item name="adminEmailEditText" type="id" />
+    <item name="adminPasswordEditText" type="id" />
+    <item name="adminLoginButton" type="id" />
+    <item name="productNameEditText" type="id" />
+    <item name="productStockEditText" type="id" />
+    <item name="productPriceEditText" type="id" />
+    <item name="productImageUrlEditText" type="id" />
+    <item name="addProductButton" type="id" />
+    <item name="fragment_container" type="id" />
+    <item name="productUrlEditText" type="id" />
+</resources>
